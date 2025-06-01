@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake effect</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="#">
+       
+        <label name="Username">Username</label>
+        <input type="text"
+        class="inputfield"
+        id="input-field1"
+        placeholder="Enter text"
+        name="Username">
+       
+       
+        <div class="errormessage" id="error-message1">
+            Invalid input
+        </div>
+        <label name="Password">Password</label>
+        <input type="password"
+        class="inputfield"
+        id="input-field2"
+        placeholder="Enter text"
+        name="Password">
+        
+        <div class="errormessage" id="error-message2">
+            Invalid input
+        </div>
+
+        <button onclick=validateinput()>Submit</button>
+        
+        
+    </form>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
